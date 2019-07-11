@@ -1,0 +1,125 @@
+body {
+	margin:0;
+}
+
+/*
+notes
+display:flex 
+flex-flow: row nowrap;
+
+*/
+
+#topheader {
+	height:40px;
+	background-color:blue;
+	color:antiquewhite;
+	text-align: center;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	
+}
+
+.button {
+	text-align:center;
+	background-color:green;
+	
+}
+
+.flex-box {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.item a {
+	color:orange;
+}
+
+.item a:hover {
+	color:darkorange;
+}
+.flex-box > .item {
+  width: 600px;
+  margin: 10px;
+	text-align:center;
+  line-height: 75px;
+  font-size: 30px;
+	justify-content: center;
+  align-items: center;
+	
+}
+
+
+ul {
+	height:40px;
+	background-color: blue;
+	list-style-type: none;
+	flex-flow:row nowrap;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color:orange;
+}
+
+li {
+	text-align:center;
+	margin:10px 10px 0px 10px;
+	color:white;
+	float:left;
+	text-decoration:none;
+	padding: 0px 50px;
+}
+
+
+
+
+.middle {
+	background-image: url(https://i0.wp.com/problogger.com/wp-content/uploads/2018/05/home-banner.png);
+	height:400px;
+	font-size:20px;
+	display:flex;
+	align-content:center;
+	align-items: center;
+	margin:0px;
+	
+}
+
+.title {
+	font-size:40px;
+	color:white;
+	padding: 30px 0px;
+	margin: 0px 200px 0px 50px;
+}
+
+
+
+.description {
+	color:white;
+	width:500px;
+	
+
+	
+}
+
+
+img {
+	height:80%;
+	margin:0px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
