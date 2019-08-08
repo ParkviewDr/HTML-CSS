@@ -1,0 +1,154 @@
+
+/* colors
+ORANGE #c03d0c;
+BLUE #206494
+*/
+
+
+/* MENUS */
+
+
+.body{
+	margin:0;
+}
+
+.menu {
+	height:40px;
+	background-color:#206494;
+	color:antiquewhite;
+	text-align: center;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	
+}
+
+.button {
+	text-align:center;
+	background-color:#c03d0c;
+	
+}
+
+#ProBlogger {
+    margin-left:400px;
+    position:relative;
+	padding: 40px 0px;
+
+	
+
+}
+
+#fb {
+    position:absolute;
+	left:400px;
+	
+   
+    
+}
+
+.submenu {
+
+	background-color:#206494;
+	color:antiquewhite;
+	text-align: center;
+	width:100%;
+	padding:0px 0px;
+    display:flex;
+    flex-direction:row;
+	justify-content: center;
+	align-content:space-around;
+}
+
+
+
+a {
+color: #c03d0c;
+	text-decoration: none;
+}
+
+
+
+
+
+.submenu > .items {
+	
+	margin: 0px 10px 0px 30px;
+	
+}
+
+
+
+/* MIDDLE SECTION */
+
+.middle {
+	background-image: url("https://i0.wp.com/problogger.com/wp-content/uploads/2018/05/home-banner.png");
+margin:0;
+background-repeat:no-repeat;
+	background-size:cover;
+height:100%;
+width:100%;
+}
+
+.middle-man{
+	
+		background-image: url("https://i0.wp.com/problogger.com/wp-content/uploads/2018/05/darren.png");
+	background-repeat:no-repeat;
+margin-left:200px;
+margin-top:0;
+	padding:20px;
+	width:100%;
+	height:500px;
+	position:relative;
+}
+
+.middle-intro{
+
+	color:white;
+	position:absolute;
+	text-align:center;
+	font-size:30px;
+	margin-left:600px;
+
+}
+
+
+.middle-welcome{
+		position:absolute;
+	margin:10px 40px 0 400px;
+	padding: 0px 100px;
+	text-align:center;
+	
+
+}
+
+.top {
+	font-size:32px;
+	color:white;
+	text-align:center;
+}
+
+
+.gallery {
+	
+	
+	  margin: 0px 50px;
+  border: 1px solid #ccc;
+  float: left;
+  
+}
+
+.desc {
+	padding:15px;
+}
+
+.caption {
+	padding:15px;
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+
