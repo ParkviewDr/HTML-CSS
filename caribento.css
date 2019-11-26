@@ -1,0 +1,114 @@
+
+
+.header {
+  padding: 10px 16px;
+  color: white;
+	text-align:center;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+url("http://mmitchelldevelopment.com/sky.jpg");
+}
+
+.a {
+	color:white;
+}
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+
+.center {
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	font:bold;
+	padding:10px;
+	margin-top:40px;
+}
+.one {
+	margin: 40px 0 0 30px;
+  grid-column: 1;
+  grid-row: 1;
+
+
+}
+
+.picture {
+	grid-column: 2;
+	grid-row: 1;
+}
+.two { 
+	
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.picture-2 {
+	grid-column: 1;
+	grid-row: 2;
+	
+}
+
+.picture-3 {
+	grid-column: 3;
+	grid-row: 2;
+	
+}
+.three {
+margin: 40px 30px 0 0;
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+	padding:50px;
+  grid-column: 1;
+  grid-row: 3;
+		grid-column-start: 1; 
+  grid-column-end: 4; 
+}
+.five {
+	margin: 40px 0 0 30px;
+  grid-column: 1;
+  grid-row: 4;
+}
+.six {
+
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.seven {
+	margin: 40px 30px 0 0px;
+	grid-column: 3;
+	grid-row:4;
+}
+
+
+.footer {
+	 grid-column: 1;
+  grid-row: 5;
+grid-column-start: 1; 
+  grid-column-end: 4; 
+text-align:center;
+	font-size:16px;
+	background-color:black;
+	color:white;
+}
