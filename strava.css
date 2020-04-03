@@ -1,0 +1,78 @@
+/*
+
+
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+
+*/
+
+body {
+	margin:0;
+}
+
+
+.menu {
+	background-color:white;
+	color:#206494;
+	text-align: center;
+	width:100%;
+ display:flex;
+ flex-direction:row;
+	justify-content: left;
+	align-content:space-around;
+margin:0px;
+	padding:10px 100px;
+}
+
+
+
+
+.items {
+font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	
+}
+
+
+.middle {
+	height:1200px;
+	
+}
+
+
+.middle-img {
+	background-image: url("http://mmitchelldevelopment.com/stampede.jpg");
+margin:0;
+background-repeat:no-repeat;
+	background-size:cover;
+height:80%;
+width:100%;
+}
+
+
+.login {
+	padding:10px;
+margin: 100px 600px;
+	height:500px;
+	width:350px;
+	background-color: black;
+	opacity:.9;
+	color:white;
+	position: absolute;
+	
+}
+
+
+.login-text {
+	position:inherit;
+	color:white;
+	display:flex;
+	text-align:center;
+}
